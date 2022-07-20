@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.our-program-section{
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+/* START MAIN  */
+.our-program-main{
+    height: 150vh;
+    background-image: url("../images/images/bg-body.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+        /* START OF FIRST BOX  */
+        main .firstbox{
+            height: 115vh;
+            width: 18%;
+            /* background-color:rgba(220, 220, 220, 0.562)  ; */
+            /* border: 1px solid gray; */
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+        .firstbox-minibox1 , .firstbox-minibox2 ,.firstbox-minibox3{
+            height: 35vh;
+            width: 100%;
+            background-color: rgb(255, 150, 13);
+            /* border: 1px solid black; */
+        }
+        .block{
+            color: rgb(245, 230, 230);
+            font-size: larger;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .block:hover{
+            color: yellow;
+        }
+
+        .firstbox   img{
+            width: 16.6vw;
+            height: 25vh;
+        }
+        
+        
+        /* END OF FIRST BOX  */
+
+
+
+
+        /* START OF MIDDEL BOX  */
+        main  .middelbox{
+            height: 80vh;
+            width: 35%;
+            margin-top: 50px;
+            margin-left: 20px;
+            margin-right: 10px;
+            /* border: 1px solid black; */
+        }
+
+        .middelbox  img{
+            width: 100%;
+        }
+
+        .matter{
+            margin-top: 10px;
+            font-size: large;
+            line-height: 30px;
+        }
+
+        .matter  a{
+            text-decoration: none;
+            color: blue;
+        }
+        /* END OF MIDDEL BOX  */
+
+
+
+
+        /* START OF SMALLBOX */
+        main  .smallbox{
+            height: 120vh;
+            width: 18%;
+            background-color:rgba(220, 220, 220, 0.562)  ;
+            border: 1px solid gray;
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+  
+        .smallbox-minibox1 , .smallbox-minibox2 , .smallbox-minibox3{
+          height: 20vh;
+          width: 37vh;
+          /* background-color: pink  ; */
+          /* border: 2px solid black; */
+        }
+        .smallbox-minibox3{
+          height: 25vh;
+        }
+  
+        .smallbox  h4 , .firstbox h3  , .middelbox  h4{
+          font-size: larger;
+          margin-left: 30px;
+          margin-top: 10px;
+          margin-bottom: 20px;
+  
+        }
+  
+        .smallbox  p{
+          margin-top: 10px;
+          font-size: large;
+          margin-left: 30px;
+        }
+  
+        .smallbox  p  a{
+          text-decoration: none;
+          line-height: 30px;
+          color: orange;
+        }
+  
+        .line{
+          border: 1px solid white;
+        }
+  
+        .grid{
+          height: 45vh;
+          width: 100%;
+          /* background-color: blue; */
+          display: grid;
+          grid-template-columns: auto auto;
+          justify-content: space-evenly;
+        }
+        
+        .gridd{
+          margin-top: 10px;
+          /* margin-left: 10px; */
+          /* height: 11vh; */
+          /* width: 50%; */
+          /* border: 1px solid black; */
+        }
+        /* END OF SMALLBOX */
+
+/* END MAIN  */

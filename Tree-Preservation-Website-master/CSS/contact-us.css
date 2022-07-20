@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contactus{
+    margin: 50px;
+}
+
+/* START OF MAIN  */
+.contactus-main{
+    height: 130vh;
+    background-image: url("../images/images/bg-body.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+        /* START OF CONTAINER1 ==> contact-us  */
+        .contact-us{
+            width: 17%;
+            height: 65vh;
+            /* border: 1px solid black; */
+            margin-top: 50px;
+        }
+            /* START OF BOX  */
+            .box{
+                width: 100%;
+                height: 60vh;
+                border: 1px solid rgba(128, 128, 128, 0.521)  ;
+                background-color: rgba(179, 172, 172, 0.199);
+                margin-top: 30px;
+                }
+                .contact-us  h3{
+                    font-size: large;
+                }
+                .box  h5{
+                    font-size:medium;
+                    font-weight:normal;
+                }
+                .box  p{
+                    line-height: 30px;
+                }
+                .box  h5 , .box .p {
+                    padding: 5px 0px 0px 20px ;
+                }
+                .footer1-div1  img , .footer1-div1  p{
+                    padding: 5px 0px 0px 20px;
+                }
+                /* END OF BOX  */
+        /* END OF CONTAINER1  */
+
+
+        /* START OF CONTAINER2 ==> send-us-a-msg  */
+        .send-us-a-msg{
+            width: 50%;
+            height: 100vh;
+            /* border: 1px solid black;               */
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+        .send-us-a-msg  h3{
+            font-size: large;
+        }
+        .send-us-a-msg  p{
+            margin-top: 25px;
+            line-height: 30px;
+            font-size: medium;
+        }
+        
+        .arrow{
+            height: 10px;
+            width: 100%;
+            background-image: url("../images/images/arrow-gray.png");
+            background-repeat: repeat-x;
+            margin-top: 20px;
+        }
+
+        .send-us-a-msg  a{
+            text-decoration: none;
+            color: blue;
+        }
+
+                /* START OF FORM  */
+                .form{
+                    height: 70vh;
+                    width: 90%;
+                    /* border: 1px solid black; */
+                    margin-top: 20px;
+                    /* display: flex; */
+                }
+
+                .form  input{
+                    display: block;
+                }
+
+                .box1 , .box3 , .box5{
+                    display: inline-block;
+                    margin-left: 20px;
+                    margin-right:20px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .box2 , .box4{
+                    display: inline-block;
+                    margin-left:20px;
+                    margin-right:20px;
+                }
+
+                .form  input{
+                    margin-top: 5px;
+                    width: 15vw;
+                }
+
+                .box6 , textarea{
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    margin-bottom: 8px;
+                }
+                .submit{
+                    position: relative;
+                    left: 30px;
+                }              
+                /* END OF FORM  */
+        /* END OF CONTAINER2 */
+/* END OF MAIN  */
+
